@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	printPattern()
-	//printPatternRec(0, 4)
+	//printPattern()
+	printPatternRec(0, 4)
 }
 
 func printPattern() {
@@ -38,7 +38,7 @@ func printPatternRec(i int, max int) {
 		fmt.Println()
 		return
 	}
-	space(0, i+1)
+	//space(0, i+1)
 	fmt.Print("*")
 	printPatternRec(i+1, max)
 }
