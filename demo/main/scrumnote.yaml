@@ -1,0 +1,12 @@
+
+- date: 31/02/24
+- projects:
+   - name: Gophercises
+     time: 1:00
+     tasks: [Scrum, Handler]
+   - name: FsInsight
+     time: 3:00
+     tasks: [Login, new]
+   - name: Other
+     time: 00:30
+     tasks: [Help & discussion]
